@@ -37,6 +37,13 @@ newly created folder. Below is an example of how to perform this operation.
 mkdir -p /var/www/pterodactyl
 cd /var/www/pterodactyl
 ```
+
+```bash
+curl -Lo panel.tar.gz https://github.com/pterodactyl/panel/releases/latest/download/panel.tar.gz
+tar -xzvf panel.tar.gz
+chmod -R 755 storage/* bootstrap/cache/
+```
+
 ## MySQL Installation
 See [Setting up MySQL](https://github.com/Sundeep-deJongh/pterodocs/blob/main/mysql.md) to create a user and database for your Pterodactyl panel quickly.
 
