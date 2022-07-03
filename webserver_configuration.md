@@ -29,4 +29,4 @@ sudo ln -s /etc/nginx/sites-available/pterodactyl.conf /etc/nginx/sites-enabled/
 sudo systemctl restart nginx
 ```
 
-#### Next Step: [Wings Installation](../../wings/installing.md)
+#### Next Step: [Wings Installation](https://github.com/Sundeep-deJongh/pterodocs/blob/main/wings.md)
