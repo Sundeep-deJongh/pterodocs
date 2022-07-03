@@ -3,21 +3,7 @@
 ::: warning
 Pterodactyl does not support most OpenVZ systems due to incompatibilities with Docker. If you are planning on running
 this software on an OpenVZ based system you will &mdash; most likely &mdash; not be successful.
-:::
-
-| Operating System | Version |     Supported      | Notes                                                       |
-| ---------------- | ------- | :----------------: | ----------------------------------------------------------- |
-| **Ubuntu**       | 18.04   | :white_check_mark: | Documentation written assuming Ubuntu 18.04 as the base OS. |
-|                  | 20.04   | :white_check_mark: |                                                             |
-|                  | 22.04   | :white_check_mark: | MariaDB can be installed without the repo setup script.     |
-| **CentOS**       | 7       | :white_check_mark: | Extra repos are required.                                   |
-|                  | 8       | :white_check_mark: | Note that CentOS 8 is EOL. Use Rocky or Alma Linux.         |
-| **Debian**       | 9       | :white_check_mark: | Extra repos are required.                                   |
-|                  | 10      | :white_check_mark: |                                                             |
-|                  | 11      | :white_check_mark: |                                                             |
-
-The commands below are simply an example of how you might install these dependencies. Please consult with your
-operating system's package manager to determine the correct packages to install.
+:::.
 
 ``` bash
 # Add "add-apt-repository" command
