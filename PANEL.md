@@ -57,7 +57,10 @@ newly created folder. Below is an example of how to perform this operation.
 mkdir -p /var/www/pterodactyl
 cd /var/www/pterodactyl
 ```
+## MySQL Installation
+See [Setting up MySQL](https://github.com/Sundeep-deJongh/pterodocs/blob/main/MYSQL.md) to create a user and database for your Pterodactyl panel quickly.
 
+### Environment Setup
 First we will copy over our default environment settings file, install core dependencies, and then generate a
 new application encryption key.
 
