@@ -57,3 +57,5 @@ bind-address=0.0.0.0
 
 ### Restarting MySQL
 You need to restart the mysql service with ``service mysql restart``.
+
+typ ``exit`` to leave the mysql GUI.
