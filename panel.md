@@ -1,10 +1,4 @@
 # pterodocs
-
-::: warning
-Pterodactyl does not support most OpenVZ systems due to incompatibilities with Docker. If you are planning on running
-this software on an OpenVZ based system you will &mdash; most likely &mdash; not be successful.
-:::.
-
 ``` bash
 # Add "add-apt-repository" command
 apt -y install software-properties-common curl apt-transport-https ca-certificates gnupg
